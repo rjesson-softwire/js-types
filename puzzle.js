@@ -3,11 +3,6 @@ const a = {
     valueOf: function() {return a.b++;}
 };
 
-console.log(a == 2);
-console.log(a == 3);
-
-console.log(a)
-
 if (a == 2 && a == 3) {
     console.log('How on earth did you get here?');
 }
